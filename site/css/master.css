@@ -1,0 +1,52 @@
+@media screen
+  and (min-device-width: 412px)
+  and (max-device-width: 600px)
+  and (device-height: 732px) {
+    body {
+      width: 100vw;
+      font-family: sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #d6d6d6;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      background-color: peachpuff;
+      width: 100vw;
+      -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+    nav {
+      margin-top: 40px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    .navlinks {
+      width: 200px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: #757575;
+      margin: 10px;
+    }
+    .navlinks:hover {
+      background-color: #a5a5a5;
+      transition: 0.2s;
+    }
+    section {
+      margin-top: 50px;
+
+    }
+  }
